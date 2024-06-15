@@ -1,0 +1,22 @@
+<!-- templates/welcome.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Disease Prediction System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Disease Prediction System</h1>
+        </header>
+        <section class="hero">
+            <p>This system predicts the likelihood of disease based on your health information.</p>
+            <p>Click below to proceed to the prediction form.</p>
+            <a href="/index" class="button">Go to Prediction Form</a>
+        </section>
+    </div>
+</body>
+</html>
